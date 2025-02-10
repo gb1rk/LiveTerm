@@ -151,7 +151,7 @@ export const banner = (args?: string[]): string => {
 ██║ ╚═╝ ██║   ██║       ██║     ╚██████╔╝██║  ██║   ██║   ██║     ╚██████╔╝███████╗██║╚██████╔╝██╗
 ╚═╝     ╚═╝   ╚═╝       ╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝      ╚═════╝ ╚══════╝╚═╝ ╚═════╝ ╚═╝
                                                                                                   
-                                                                                               
+Hi, My name's Tim Numé :)                                                                                              
 
 Type 'help' to see the list of available commands.
 
