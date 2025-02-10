@@ -38,7 +38,7 @@ I'm 27 y/o with a burning passion for camping, fishing, hiking & everything nerd
 That includes AI, Gaming, Dungeons & Dragons... and so much more, more than I have time for.
 
 You can find my CV here:
-'resume' - my latest resume.`;
+'resume' - my latest resume, english version is coming.`;
 };
 
 export const resume = async (args: string[]): Promise<string> => {
