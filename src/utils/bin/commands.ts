@@ -35,7 +35,7 @@ export const about = async (args: string[]): Promise<string> => {
 Happy to see you wanna know more about me!
 
 I'm 27 y/o with a burning passion for camping, fishing, hiking & everything nerdy.
-That includes AI, Gaming, Dungeons & Dragons.. and so much more, more than i have time for.
+That includes AI, Gaming, Dungeons & Dragons... and so much more, more than I have time for.
 
 You can find my CV here:
 'resume' - my latest resume.`;
@@ -104,7 +104,7 @@ directories`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
-  return `unfortunately, i cannot afford more directories.
+  return `unfortunately, i cannot afford real directories.
 if you want to help, you can always employ me :).`;
 };
 
