@@ -1,6 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-light-background: #000000;
+  --color-light-foreground: #f8f8f2;
+  --color-light-yellow: #50fa7b;
+  --color-light-green: #50fa7b;
+  --color-light-gray: #bd93f9;
+  --color-light-blue: #8be9fd;
+  --color-light-red: #ff5555;
+}
 
 @font-face {
   font-family: 'Hack';
