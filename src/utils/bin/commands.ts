@@ -55,13 +55,11 @@ export const email = async (args: string[]): Promise<string> => {
 
 export const github = async (args: string[]): Promise<string> => {
   window.open(`https://github.com/${config.social.github}/`);
-
   return 'Opening github...';
 };
 
 export const linkedin = async (args: string[]): Promise<string> => {
   window.open(`https://www.linkedin.com/in/${config.social.linkedin}/`);
-
   return 'Opening linkedin...';
 };
 
@@ -167,9 +165,18 @@ export const emacs = async (args?: string[]): Promise<string> => {
   return `you know what? just use vscode.`;
 };
 
+export const nano = async (args?: string[]): Promise<string> => {
+  return `Stop it. Get some help.`;
+};
+
 export const sudo = async (args?: string[]): Promise<string> => {
   window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
   return `Permission denied: with little power comes... no responsibility? `;
+};
+
+export const vscode = async (args?: string[]): Promise<string> => {
+  window.open('https://www.youtube.com/watch?v=iwGFalTRHDA&ab_channel=KamoKatt', '_blank'); // ...I'm sorry
+  return `Im sorry. I had to.`;
 };
 
 // Banner
