@@ -105,7 +105,16 @@ directories`;
 
 export const cd = async (args: string[]): Promise<string> => {
   return `unfortunately, i cannot afford real directories.
-if you want to help, you can always employ me :).`;
+if you want to help, you can always employ me :)`;
+};
+
+export const curl = async (args: string[]): Promise<string> => {
+  return `<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.timnume.dev/">here</A>.
+</BODY></HTML>.`;
 };
 
 export const date = async (args: string[]): Promise<string> => {
