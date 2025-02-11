@@ -108,6 +108,14 @@ export const cd = async (args: string[]): Promise<string> => {
 if you want to help, you can always employ me :)`;
 };
 
+export const systemctl = async (args: string[]): Promise<string> => {
+  return `bash: Permission denied`;
+};
+
+export const ping = async (args: string[]): Promise<string> => {
+  return `pong!`;
+};
+
 export const curl = async (args: string[]): Promise<string> => {
   return `<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
 <TITLE>301 Moved</TITLE></HEAD><BODY>
