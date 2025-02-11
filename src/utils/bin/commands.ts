@@ -139,6 +139,8 @@ export const banner = (args?: string[]): string => {
 
                                                                                                                                                                                            
                                                                                                                                                                                            
+                                                                                                                                                                                           
+                                                                                                                                                                                           
 HHHHHHHHH     HHHHHHHHH                   lllllll lllllll                                tttt         hhhhhhh                                                                          !!! 
 H:::::::H     H:::::::H                   l:::::l l:::::l                             ttt:::t         h:::::h                                                                         !!:!!
 H:::::::H     H:::::::H                   l:::::l l:::::l                             t:::::t         h:::::h                                                                         !:::!
@@ -158,13 +160,8 @@ HHHHHHHHH     HHHHHHHHH    eeeeeeeeeeeeee llllllllllllllll   ooooooooooo        
                                                                                                                                                                                            
                                                                                                                                                                                            
                                                                                                                                                                                            
-                                                                                                                                                                                           
-                                                                                                                                                                                           
-                                                                                                                                                                                           
-                                                                                                                                                                                           
-
-
-
+                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 My name's Tim Numé and this is my portfolio :)                                                                                              
 
 Type 'help' to see the list of available commands.
