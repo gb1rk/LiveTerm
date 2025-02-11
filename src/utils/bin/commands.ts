@@ -137,27 +137,38 @@ export const sudo = async (args?: string[]): Promise<string> => {
 export const banner = (args?: string[]): string => {
   return `
 
-██╗    ██╗███████╗██╗      ██████╗ ██████╗ ███╗   ███╗███████╗    ████████╗ ██████╗ 
-██║    ██║██╔════╝██║     ██╔════╝██╔═══██╗████╗ ████║██╔════╝    ╚══██╔══╝██╔═══██╗
-██║ █╗ ██║█████╗  ██║     ██║     ██║   ██║██╔████╔██║█████╗         ██║   ██║   ██║
-██║███╗██║██╔══╝  ██║     ██║     ██║   ██║██║╚██╔╝██║██╔══╝         ██║   ██║   ██║
-╚███╔███╔╝███████╗███████╗╚██████╗╚██████╔╝██║ ╚═╝ ██║███████╗       ██║   ╚██████╔╝
- ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝       ╚═╝    ╚═════╝ 
+                                                                                                                                                                                           
+                                                                                                                                                                                           
+HHHHHHHHH     HHHHHHHHH                   lllllll lllllll                                tttt         hhhhhhh                                                                          !!! 
+H:::::::H     H:::::::H                   l:::::l l:::::l                             ttt:::t         h:::::h                                                                         !!:!!
+H:::::::H     H:::::::H                   l:::::l l:::::l                             t:::::t         h:::::h                                                                         !:::!
+HH::::::H     H::::::HH                   l:::::l l:::::l                             t:::::t         h:::::h                                                                         !:::!
+  H:::::H     H:::::H      eeeeeeeeeeee    l::::l  l::::l    ooooooooooo        ttttttt:::::ttttttt    h::::h hhhhh           eeeeeeeeeeee    rrrrr   rrrrrrrrr       eeeeeeeeeeee    !:::!
+  H:::::H     H:::::H    ee::::::::::::ee  l::::l  l::::l  oo:::::::::::oo      t:::::::::::::::::t    h::::hh:::::hhh      ee::::::::::::ee  r::::rrr:::::::::r    ee::::::::::::ee  !:::!
+  H::::::HHHHH::::::H   e::::::eeeee:::::eel::::l  l::::l o:::::::::::::::o     t:::::::::::::::::t    h::::::::::::::hh   e::::::eeeee:::::eer:::::::::::::::::r  e::::::eeeee:::::ee!:::!
+  H:::::::::::::::::H  e::::::e     e:::::el::::l  l::::l o:::::ooooo:::::o     tttttt:::::::tttttt    h:::::::hhh::::::h e::::::e     e:::::err::::::rrrrr::::::re::::::e     e:::::e!:::!
+  H:::::::::::::::::H  e:::::::eeeee::::::el::::l  l::::l o::::o     o::::o           t:::::t          h::::::h   h::::::he:::::::eeeee::::::e r:::::r     r:::::re:::::::eeeee::::::e!:::!
+  H::::::HHHHH::::::H  e:::::::::::::::::e l::::l  l::::l o::::o     o::::o           t:::::t          h:::::h     h:::::he:::::::::::::::::e  r:::::r     rrrrrrre:::::::::::::::::e !:::!
+  H:::::H     H:::::H  e::::::eeeeeeeeeee  l::::l  l::::l o::::o     o::::o           t:::::t          h:::::h     h:::::he::::::eeeeeeeeeee   r:::::r            e::::::eeeeeeeeeee  !!:!!
+  H:::::H     H:::::H  e:::::::e           l::::l  l::::l o::::o     o::::o           t:::::t    tttttth:::::h     h:::::he:::::::e            r:::::r            e:::::::e            !!! 
+HH::::::H     H::::::HHe::::::::e         l::::::ll::::::lo:::::ooooo:::::o           t::::::tttt:::::th:::::h     h:::::he::::::::e           r:::::r            e::::::::e               
+H:::::::H     H:::::::H e::::::::eeeeeeee l::::::ll::::::lo:::::::::::::::o           tt::::::::::::::th:::::h     h:::::h e::::::::eeeeeeee   r:::::r             e::::::::eeeeeeee   !!! 
+H:::::::H     H:::::::H  ee:::::::::::::e l::::::ll::::::l oo:::::::::::oo              tt:::::::::::tth:::::h     h:::::h  ee:::::::::::::e   r:::::r              ee:::::::::::::e  !!:!!
+HHHHHHHHH     HHHHHHHHH    eeeeeeeeeeeeee llllllllllllllll   ooooooooooo                  ttttttttttt  hhhhhhh     hhhhhhh    eeeeeeeeeeeeee   rrrrrrr                eeeeeeeeeeeeee   !!! 
+                                                                                                                                                                                           
+                                                                                                                                                                                           
+                                                                                                                                                                                           
+                                                                                                                                                                                           
+                                                                                                                                                                                           
+                                                                                                                                                                                           
+                                                                                                                                                                                           
 
- 
-
-███╗   ███╗██╗   ██╗    ██████╗  ██████╗ ██████╗ ████████╗███████╗ ██████╗ ██╗     ██╗ ██████╗ ██╗
-████╗ ████║╚██╗ ██╔╝    ██╔══██╗██╔═══██╗██╔══██╗╚══██╔══╝██╔════╝██╔═══██╗██║     ██║██╔═══██╗██║
-██╔████╔██║ ╚████╔╝     ██████╔╝██║   ██║██████╔╝   ██║   █████╗  ██║   ██║██║     ██║██║   ██║██║
-██║╚██╔╝██║  ╚██╔╝      ██╔═══╝ ██║   ██║██╔══██╗   ██║   ██╔══╝  ██║   ██║██║     ██║██║   ██║╚═╝
-██║ ╚═╝ ██║   ██║       ██║     ╚██████╔╝██║  ██║   ██║   ██║     ╚██████╔╝███████╗██║╚██████╔╝██╗
-╚═╝     ╚═╝   ╚═╝       ╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝      ╚═════╝ ╚══════╝╚═╝ ╚═════╝ ╚═╝
 
 
-
-Hi, My name's Tim Numé :)                                                                                              
+My name's Tim Numé and this is my portfolio :)                                                                                              
 
 Type 'help' to see the list of available commands.
+Type 'sumfetch' to display summary.
 
 Ps. Dont try to use sudo.
 
