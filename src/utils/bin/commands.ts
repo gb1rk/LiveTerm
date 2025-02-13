@@ -84,7 +84,7 @@ export const reddit = async (args: string[]): Promise<string> => {
   return `Searching reddit for ${args.join(' ')}...`;
 };
 
-// Typical linux commands
+// Typical linux commands & banter
 export const echo = async (args: string[]): Promise<string> => {
   return args.join(' ');
 };
@@ -105,6 +105,10 @@ export const cd = async (args: string[]): Promise<string> => {
   return `unfortunately, i cannot afford real directories.
 if you want to help, you can always employ me :)`;
 };
+
+export const game = async (args: string[]): Promise<string> => {
+  return `you just lost the game.`;
+}
 
 export const systemctl = async (args: string[]): Promise<string> => {
   return `bash: Permission denied`;
@@ -258,12 +262,12 @@ HHHHHHHHH     HHHHHHHHH    eeeeeeeeeeeeee llllllllllllllll   ooooooooooo        
                                                                                                                                                                                            
                                       
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
-My name's Tim Numé and this is my portfolio :)                                                                                              
+My name's Tim Numé and this is my portfolio. It's an interatice mimic of a linux terminal. Feel free to explore and have fun!                                                                                             
 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
 
-Ps. Dont try to use sudo.
+Ps. I dont recommend that you try to use sudo, for your own sake ofcourse.
 
 `;
 };
