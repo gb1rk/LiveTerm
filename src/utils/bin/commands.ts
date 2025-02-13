@@ -114,9 +114,26 @@ export const systemctl = async (args: string[]): Promise<string> => {
   return `bash: Permission denied`;
 };
 
+export const pwd = async (args: string[]): Promise<string> => {
+  return `/home/${config.ps1_username}`;
+}
+
 export const ping = async (args: string[]): Promise<string> => {
   return `pong!`;
 };
+
+export const mkdir = async (args: string[]): Promise<string> => {
+  return `mkdir: cannot create directory ‘${args[0]}’: Permission denied`;
+}
+
+export const touch = async (args: string[]): Promise<string> => {
+  return `touch: cannot touch ‘${args[0]}’: Permission denied`;
+}
+
+export const rm = async (args: string[]): Promise<string> => {
+  return `rm: cannot remove ‘${args[0]}’: Permission denied`;
+}
+
 
 export const hello = async (args: string[]): Promise<string> => {
   return `⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⣔⢾⡿⠿⠟⠭⠓⣀⢌⣤⣰⠀⡀⠤⡈⠻⢿⣿⣿⡿⢂⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
