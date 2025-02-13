@@ -279,7 +279,7 @@ HHHHHHHHH     HHHHHHHHH    eeeeeeeeeeeeee llllllllllllllll   ooooooooooo        
                                                                                                                                                                                            
                                       
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
-My name's Tim Numé and this is my portfolio. It's an interatice mimic of a linux terminal. Feel free to explore and have fun!                                                                                             
+My name's Tim Numé and this is my portfolio. It's an interactive mimic of a linux terminal. Feel free to explore and have fun!                                                                                             
 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
