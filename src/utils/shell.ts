@@ -7,7 +7,7 @@ export const shell = async (
   clearHistory: () => void,
   setCommand: React.Dispatch<React.SetStateAction<string>>,
 ) => {
-  const args = command.split(' ');
+  const args = command.split(', ');
   args[0] = args[0].toLowerCase();
 
   if (args[0] === 'clear') {
