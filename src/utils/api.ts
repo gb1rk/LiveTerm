@@ -28,3 +28,13 @@ export const getQuote = async () => {
     quote: `“${data.content}” — ${data.author}`,
   };
 };
+
+export const getJoke = async () => {
+  const { data } = await axios.get('https://v2.jokeapi.dev/joke/Any');
+  return data;
+};
+
+export const getFact = async () => {
+  const { data } = await axios.get('https://uselessfacts.jsph.pl/api/v2/facts/random?language=en');
+  return data;
+}
