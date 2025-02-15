@@ -37,11 +37,6 @@ export const weather = async (args: string[]): Promise<string> => {
   return weather;
 };
 
-export const joke = async (args: string[]): Promise<string> => {
-  const data = await getJoke();
-  return data.joke;
-};
-
 export const fact = async (args: string[]): Promise<string> => {
   const data = await getFact();
   return data.fact;
