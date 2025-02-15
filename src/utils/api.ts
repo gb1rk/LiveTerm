@@ -23,21 +23,21 @@ export const getWeather = async (city: string) => {
 };
 
 export const getQuote = async () => {
-  const { data } = await axios.get('https://api.quotable.io/random');
-  return {
+   const { data } = await axios.get('https://api.quotable.io/random');
+   return {
     quote: `“${data.content}” — ${data.author}`,
   };
 };
 
 export const getJoke = async () => {
-  const { data } = await axios.get('https://v2.jokeapi.dev/joke/Any');
-  return {
+   const { data } = await axios.get('https://v2.jokeapi.dev/joke/Any');
+   return {
     joke: `“${data.joke}”`,
   };
 };
  export const getFact = async () => {
-  const { data } = await axios.get('https://uselessfacts.jsph.pl/api/v2/facts/random?language=en');
-  return {
+   const { data } = await axios.get('https://uselessfacts.jsph.pl/api/v2/facts/random?language=en');
+   return {
    fact: `“${data.text}”`,
- };
+  };
 };
