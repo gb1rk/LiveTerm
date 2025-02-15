@@ -19,7 +19,7 @@ export const getWeather = async (city: string) => {
     return data;
   } catch (error) {
     return error;
-  }
+  };
 };
 
 export const getQuote = async () => {
